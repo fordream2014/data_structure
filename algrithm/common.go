@@ -50,6 +50,25 @@ type Node struct {
 	Next *Node
 }
 
+//生成链表
+func GenerateLink(arr []int) *Node {
+	if len(arr) == 0 {
+		return nil
+	}
+	root := &Node {
+		Val: -1,
+	}
+	cur := root
+	for _,v := range arr {
+		cur.Next = &Node{
+			Val: v,
+		}
+		cur = cur.Next
+	}
+	return root.Next
+}
+
+//打印链表
 func PrintNodes(root *Node) {
 	cur := root
 	for cur != nil {
