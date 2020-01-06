@@ -33,6 +33,34 @@ func DeleteDup(root *Node) *Node {
 	return newroot.Next
 }
 
+//删除有序链表中的重复项
+//1-2-2-2-3-3-5  => 1-2-3-5
+func DeleteDup2(root *Node) *Node {
+	if root == nil {
+		return nil
+	}
+	if root.Next == nil {
+		return root
+	}
+
+	pre := root
+	cur := root.Next
+	for cur != nil {
+		if cur.Val == pre.Val {
+			cur = cur.Next
+		} else {
+			if pre.Next != cur {
+				pre.Next = cur
+
+			}
+
+			pre = cur
+			cur = cur.Next
+		}
+	}
+	return root
+}
+
 func TestDeleteDup() {
 	arr := []int{1,2,2,2,3,3,5}
 	root := GenerateLink(arr)
@@ -42,5 +70,12 @@ func TestDeleteDup() {
 	root = DeleteDup(root)
 	PrintNodes(root)
 
+	fmt.Println()
+
+	//方法2 1-2-3-5
+	arr = []int{1,2,2,2,3,3,5}
+	root = GenerateLink(arr)
+	root = DeleteDup2(root)
+	PrintNodes(root)
 }
 
