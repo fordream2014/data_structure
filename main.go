@@ -6,5 +6,7 @@ func main() {
 	//algrithm.TestValidateHuiwen()
 	//algrithm.TestDeleteDup()
 	//algrithm.TestSum()
-	algrithm.TestResortLink()
+	//algrithm.TestResortLink()
+	//algrithm.TestFindLastKElem()
+	algrithm.TestInverseAdjacentElem()
 }
