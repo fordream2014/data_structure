@@ -10,5 +10,6 @@ func main() {
 	//algrithm.TestFindLastKElem()
 	//algrithm.TestInverseAdjacentElem()
 	//algrithm.TestRevertKElem()
-	algrithm.TestMergeLink()
+	//algrithm.TestMergeLink()
+	algrithm.TestSqrt()
 }

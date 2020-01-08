@@ -9,3 +9,6 @@
 * [验证是否是回文字符串](algrithm/validateHuiwen.go)
 * [链表以k个节点为一组进行反转](algrithm/reverseKElem.go)
 * [合并两个有序链表](algrithm/mergeLink.go)
+
+### 二分法查找
+* [求一个数的平方根](algrithm/sqrt.go)
