@@ -8,5 +8,6 @@ func main() {
 	//algrithm.TestSum()
 	//algrithm.TestResortLink()
 	//algrithm.TestFindLastKElem()
-	algrithm.TestInverseAdjacentElem()
+	//algrithm.TestInverseAdjacentElem()
+	algrithm.TestRevertKElem()
 }
