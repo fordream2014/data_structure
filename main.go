@@ -11,5 +11,7 @@ func main() {
 	//algrithm.TestInverseAdjacentElem()
 	//algrithm.TestRevertKElem()
 	//algrithm.TestMergeLink()
-	algrithm.TestSqrt()
+	//algrithm.TestSqrt()
+	//algrithm.TestFindUniqDupVal()
+	algrithm.TestFindMoreDupVals()
 }

@@ -12,3 +12,7 @@
 
 ### 二分法查找
 * [求一个数的平方根](algrithm/sqrt.go)
+
+### 数组
+* [查找数组中唯一的重复元素](algrithm/findArrayUniqDupVla.go)
+* [查找数组中多个重复元素](algrithm/findArrayUniqDupVla.go)
