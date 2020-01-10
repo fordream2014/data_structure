@@ -14,5 +14,6 @@ func main() {
 	//algrithm.TestSqrt()
 	//algrithm.TestFindUniqDupVal()
 	//algrithm.TestFindMoreDupVals()
-	algrithm.TestFindMinMax()
+	//algrithm.TestFindMinMax()
+	algrithm.TestFindMinElemOfRotatedOfArray()
 }

@@ -17,3 +17,4 @@
 * [查找数组中唯一的重复元素](algrithm/findArrayUniqDupVla.go)
 * [查找数组中多个重复元素](algrithm/findArrayUniqDupVla.go)
 * [查找最大值和最小值](algrithm/findMinAndMax.go)
+* [如何找到旋转数组的最小元素](algrithm/findMinElemOfRotatedArray.go)
