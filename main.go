@@ -13,5 +13,6 @@ func main() {
 	//algrithm.TestMergeLink()
 	//algrithm.TestSqrt()
 	//algrithm.TestFindUniqDupVal()
-	algrithm.TestFindMoreDupVals()
+	//algrithm.TestFindMoreDupVals()
+	algrithm.TestFindMinMax()
 }
