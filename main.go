@@ -15,5 +15,8 @@ func main() {
 	//algrithm.TestFindUniqDupVal()
 	//algrithm.TestFindMoreDupVals()
 	//algrithm.TestFindMinMax()
-	algrithm.TestFindMinElemOfRotatedOfArray()
+	//algrithm.TestFindMinElemOfRotatedOfArray()
+	//algrithm.TestFindOddTimesElement()
+	//algrithm.TestFindKMinElement()
+	algrithm.TestStockTrade()
 }
