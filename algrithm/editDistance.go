@@ -52,7 +52,7 @@ rose -> ros (删除 'e')
 		}
 	 }
 	 fmt.Println(dist)
- 	return dist[lenth1-1][lenth2-1]
+ 	return dist[lenth1][lenth2]
  }
 
  /*
@@ -78,17 +78,47 @@ func optimization(word1 , word2 []string) int {
 				pre = dist[j]
 			}
 		}
+		fmt.Println(dist)
 	}
 	fmt.Println(dist)
-	return dist[lenth2-1]
+	return dist[lenth2]
+}
+
+func optimizationString(word1_str , word2_str string) int {
+	word1 := []rune(word1_str)
+	word2 := []rune(word2_str)
+	lenth1 := len(word1)
+	lenth2 := len(word2)
+
+	dist := make([]int, lenth2+1)
+	for j:=1; j<=lenth2; j++ {
+		dist[j] = dist[j-1] + 1
+	}
+
+	var pre int
+	for i:=1; i<=lenth1; i++ {
+		for j:=1; j<=lenth2; j++ {
+			if word1[i-1] == word2[j-1] {
+				dist[j] = pre
+			} else {
+				min := math.Min(float64(dist[j-1]), float64(dist[j]))
+				dist[j] = int(math.Min(float64(min), float64(pre))) + 1
+				pre = dist[j]
+			}
+		}
+	}
+	fmt.Println(dist)
+	return dist[lenth2]
 }
 
  func TestMinDistance() {
- 	word1 := []string{"h", "o", "r", "s", "3"}
- 	word2 := []string{"r", "o", "s"}
+ 	//word1 := []string{"h", "o", "r", "s", "3"}
+ 	//word2 := []string{"r", "o", "s"}
 
  	//word1 := []string{"i","n","t","e","n","t","i","o","n"}
  	//word2 := []string{"e","x","e","c","u","t","i","o","n"}
- 	dist := getTransEditOperateNum(word1, word2)
+ 	word1 := "hors3"
+ 	word2 := "ros"
+ 	dist := optimizationString(word1, word2)
  	fmt.Println(dist)
  }
