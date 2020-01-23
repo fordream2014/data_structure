@@ -18,5 +18,9 @@ func main() {
 	//algrithm.TestFindMinElemOfRotatedOfArray()
 	//algrithm.TestFindOddTimesElement()
 	//algrithm.TestFindKMinElement()
-	algrithm.TestStockTrade()
+	//algrithm.TestStockTrade()
+	//algrithm.EightQueen()
+	//algrithm.Test01Package()
+	//algrithm.TestMatchRegularExpression()
+	algrithm.TestMinDistance()
 }

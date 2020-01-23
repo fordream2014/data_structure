@@ -1,4 +1,4 @@
-* 使用golang实现一些数据结构和算法
+## 使用golang实现一些数据结构和算法
 
 ### 链表
 * [删除有序链表中所有重复项](algrithm/deleteDup.go)
@@ -22,3 +22,11 @@
 
 ### 贪心算法
 * [股票买卖](algrithm/Stocktrade.go)
+
+### 回溯算法
+* [八皇后问题](algrithm/eightQueen.go)
+* [0-1背包问题](algrithm/zeroOnePackage.go)
+* [正则表达式](algrithm/regularExpression.go)
+
+### 动态规划
+* [编辑距离](algrithm/editDistance.go)
