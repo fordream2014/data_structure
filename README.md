@@ -30,3 +30,7 @@
 
 ### 动态规划
 * [编辑距离](algrithm/editDistance.go)
+* [最长回文子串]
+
+### 全排列
+* [打印从1到最大的n位数](algrithm/printMaxNBitNum.go)

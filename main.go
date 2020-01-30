@@ -22,5 +22,7 @@ func main() {
 	//algrithm.EightQueen()
 	//algrithm.Test01Package()
 	//algrithm.TestMatchRegularExpression()
-	algrithm.TestMinDistance()
+	//algrithm.TestMinDistance()
+	//algrithm.TestFindLongestHuiwen()
+	algrithm.TestPrintMaxNBitNumber()
 }
