@@ -27,10 +27,11 @@
 * [八皇后问题](algrithm/eightQueen.go)
 * [0-1背包问题](algrithm/zeroOnePackage.go)
 * [正则表达式](algrithm/regularExpression.go)
+* [正则表达式匹配2]()
 
 ### 动态规划
 * [编辑距离](algrithm/editDistance.go)
-* [最长回文子串]
+* [最长回文子串](algrithm/longestHuiwen.go)
 
 ### 全排列
 * [打印从1到最大的n位数](algrithm/printMaxNBitNum.go)
