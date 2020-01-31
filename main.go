@@ -4,7 +4,7 @@ import "data_structure/algrithm"
 
 func main() {
 	//algrithm.TestValidateHuiwen()
-	//algrithm.TestDeleteDup()
+	algrithm.TestDeleteDup()
 	//algrithm.TestSum()
 	//algrithm.TestResortLink()
 	//algrithm.TestFindLastKElem()
@@ -24,5 +24,5 @@ func main() {
 	//algrithm.TestMatchRegularExpression()
 	//algrithm.TestMinDistance()
 	//algrithm.TestFindLongestHuiwen()
-	algrithm.TestPrintMaxNBitNumber()
+	//algrithm.TestPrintMaxNBitNumber()
 }

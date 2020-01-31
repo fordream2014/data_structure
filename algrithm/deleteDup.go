@@ -17,8 +17,8 @@ func DeleteDup(root *Node) *Node {
 	}
 	pre := newroot
 	cur := root
-	for cur.Next != nil {
-		if cur.Val == cur.Next.Val {
+	for cur != nil {
+		if cur.Next != nil && cur.Val == cur.Next.Val {
 			cur = cur.Next
 		} else {
 			if pre.Next == cur {
@@ -73,9 +73,9 @@ func TestDeleteDup() {
 	fmt.Println()
 
 	//方法2 1-2-3-5
-	arr = []int{1,2,2,2,3,3,5}
-	root = GenerateLink(arr)
-	root = DeleteDup2(root)
-	PrintNodes(root)
+	//arr = []int{1,2,2,2,3,3,5}
+	//root = GenerateLink(arr)
+	//root = DeleteDup2(root)
+	//PrintNodes(root)
 }
 
