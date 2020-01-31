@@ -35,6 +35,7 @@ func DeleteDup(root *Node) *Node {
 
 //删除有序链表中的重复项
 //1-2-2-2-3-3-5  => 1-2-3-5
+//可以认为cur.Next == nil的情况和cur.Next.val == cur.Val的情况相同
 func DeleteDup2(root *Node) *Node {
 	if root == nil {
 		return nil
