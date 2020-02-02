@@ -26,5 +26,7 @@ func main() {
 	//algrithm.TestFindLongestHuiwen()
 	//algrithm.TestPrintMaxNBitNumber()
 	//algrithm.TestRegular()
-	algrithm.TestFindLongestNoDuplicatSubString()
+	//algrithm.TestFindLongestNoDuplicatSubString()
+	//algrithm.TestTrie()
+	algrithm.TestFindLongestPrefix()
 }

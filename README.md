@@ -27,7 +27,7 @@
 * [八皇后问题](algrithm/eightQueen.go)
 * [0-1背包问题](algrithm/zeroOnePackage.go)
 * [正则表达式](algrithm/regularExpression.go)
-* [正则表达式匹配2]()
+* [正则表达式匹配2](algrithm/regularMatch.go)
 
 ### 动态规划
 * [编辑距离](algrithm/editDistance.go)
@@ -38,3 +38,7 @@
 
 ### 字符串
 * [无重复字符的最长子串](algrithm/findLongestNoDuplicateSubString.go)
+* [最长公共前缀]()
+
+### Trie树（前缀树）
+* [Trie树实现](algrithm/Trie.go)
