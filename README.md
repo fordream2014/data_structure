@@ -38,7 +38,8 @@
 
 ### 字符串
 * [无重复字符的最长子串](algrithm/findLongestNoDuplicateSubString.go)
-* [最长公共前缀]()
+* [最长公共前缀](algrithm/longestPrefix.go)
+* [字符串的排列](algrithm/stringRank.go)
 
 ### Trie树（前缀树）
 * [Trie树实现](algrithm/Trie.go)

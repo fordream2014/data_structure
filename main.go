@@ -28,5 +28,6 @@ func main() {
 	//algrithm.TestRegular()
 	//algrithm.TestFindLongestNoDuplicatSubString()
 	//algrithm.TestTrie()
-	algrithm.TestFindLongestPrefix()
+	//algrithm.TestFindLongestPrefix()
+	algrithm.TestStringRank()
 }
