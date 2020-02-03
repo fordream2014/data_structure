@@ -44,4 +44,3 @@
 
 ### Trie树（前缀树）
 * [Trie树实现](algrithm/Trie.go)
-
