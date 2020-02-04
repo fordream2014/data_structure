@@ -41,6 +41,7 @@
 * [最长公共前缀](algrithm/longestPrefix.go)
 * [字符串的排列](algrithm/stringRank.go)
 * [判断一个字符串是否包含另一个字符串的排列](algrithm/validateContainRank.go)
+* [字符串相乘]
 
 ### Trie树（前缀树）
 * [Trie树实现](algrithm/Trie.go)
