@@ -33,5 +33,7 @@ func main() {
 	//algrithm.TestValidateContainRank()
 	//algrithm.TestStringMultiplication()
 	//algrithm.TestNumeric()
-	algrithm.TestSummaryThreeNumber()
+	//algrithm.TestSummaryThreeNumber()
+	//algrithm.TestGetLongestIncrSequenceSize()
+	algrithm.TestFindKMaxElement()
 }

@@ -19,7 +19,9 @@
 * [查找最大值和最小值](algrithm/findMinAndMax.go)
 * [如何找到旋转数组的最小元素](algrithm/findMinElemOfRotatedArray.go)
 * [找出数组中出现奇数次的数](algrithm/findOddTimesElement.go)
-* [三数之和]
+* [三数之和](algrithm/threeSummary.go)
+* [最长连续递增序列](algrithm/longestIncrSequence.go)
+* [数组中第K个最大元素](algrithm/findKMaxElement.go)
 
 ### 贪心算法
 * [股票买卖](algrithm/Stocktrade.go)
