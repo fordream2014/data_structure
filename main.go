@@ -31,5 +31,6 @@ func main() {
 	//algrithm.TestFindLongestPrefix()
 	//algrithm.TestStringRank()
 	//algrithm.TestValidateContainRank()
-	algrithm.TestStringMultiplication()
+	//algrithm.TestStringMultiplication()
+	algrithm.TestNumeric()
 }
