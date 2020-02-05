@@ -32,5 +32,6 @@ func main() {
 	//algrithm.TestStringRank()
 	//algrithm.TestValidateContainRank()
 	//algrithm.TestStringMultiplication()
-	algrithm.TestNumeric()
+	//algrithm.TestNumeric()
+	algrithm.TestSummaryThreeNumber()
 }
