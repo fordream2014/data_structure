@@ -51,4 +51,5 @@
 * [Trie树实现](algrithm/Trie.go)
 
 ### 二叉查找树
-* [二叉查找树的插入、删除、查找操作]
+* [二叉查找树的插入、删除、查找操作](algrithm/binarySearchTree.go)
+* [二叉查找树的后序遍历序列](algrithm/validateBinarySearchTreeBypostOrder.go)
