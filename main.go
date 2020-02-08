@@ -37,5 +37,6 @@ func main() {
 	//algrithm.TestGetLongestIncrSequenceSize()
 	//algrithm.TestFindKMaxElement()
 	//algrithm.TestValidateBSTreeByPostOrder()
-	algrithm.TestBSTreeConvert()
+	//algrithm.TestBSTreeConvert()
+	algrithm.TestSerializeBSTree()
 }
