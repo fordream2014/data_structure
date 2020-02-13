@@ -9,7 +9,7 @@ func main() {
 	//algrithm.TestResortLink()
 	//algrithm.TestFindLastKElem()
 	//algrithm.TestInverseAdjacentElem()
-	algrithm.TestRevertKElem()
+	//algrithm.TestRevertKElem()
 	//algrithm.TestMergeLink()
 	//algrithm.TestSqrt()
 	//algrithm.TestFindUniqDupVal()
@@ -39,4 +39,5 @@ func main() {
 	//algrithm.TestValidateBSTreeByPostOrder()
 	//algrithm.TestBSTreeConvert()
 	//algrithm.TestSerializeBSTree()
+	algrithm.TestGetDegreeOfInversion()
 }

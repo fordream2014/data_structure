@@ -22,6 +22,7 @@
 * [三数之和](algrithm/threeSummary.go)
 * [最长连续递增序列](algrithm/longestIncrSequence.go)
 * [数组中第K个最大元素](algrithm/findKMaxElement.go)
+* [数组中的逆序对](algrithm/degreeOfInversion.go)
 
 ### 贪心算法
 * [股票买卖](algrithm/Stocktrade.go)

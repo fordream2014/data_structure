@@ -21,6 +21,7 @@ func validateContainRank(base, str string) bool {
 		str_map[ind]++
 	}
 
+	//这个方法很实用，滑动窗口
 	for i:=0; i<base_len; i++ {
 		ind := int(base[i] - 'a')
 		base_map[ind]++
