@@ -23,6 +23,7 @@
 * [最长连续递增序列](algrithm/longestIncrSequence.go)
 * [数组中第K个最大元素](algrithm/findKMaxElement.go)
 * [数组中的逆序对](algrithm/degreeOfInversion.go)
+* [数组中唯一只出现一次的数字](algrithm/findUniqElementInarray.go)
 
 ### 贪心算法
 * [股票买卖](algrithm/Stocktrade.go)
@@ -36,7 +37,7 @@
 ### 动态规划
 * [编辑距离](algrithm/editDistance.go)
 * [最长回文子串](algrithm/longestHuiwen.go)
-
+* [动态规划系列](https://segmentfault.com/a/1190000021739367)
 ### 全排列
 * [打印从1到最大的n位数](algrithm/printMaxNBitNum.go)
 

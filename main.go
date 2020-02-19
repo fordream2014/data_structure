@@ -39,5 +39,6 @@ func main() {
 	//algrithm.TestValidateBSTreeByPostOrder()
 	//algrithm.TestBSTreeConvert()
 	//algrithm.TestSerializeBSTree()
-	algrithm.TestGetDegreeOfInversion()
+	//algrithm.TestGetDegreeOfInversion()
+	algrithm.TestFindUniqElementInarray()
 }
