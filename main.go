@@ -42,5 +42,5 @@ func main() {
 	//algrithm.TestBSTreeConvert()
 	//algrithm.TestSerializeBSTree()
 	//algrithm.TestGetDegreeOfInversion()
-	algrithm.TestMaxSum()
+	algrithm.TestFindSingleVal()
 }

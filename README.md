@@ -26,6 +26,7 @@
 * [数组中唯一只出现一次的数字](algrithm/findUniqElementInarray.go)
 * [数组中重复的数字]
 * [数组连续最大和]
+* [找出数组中出现1次的数](algrithm/findSingleVal.go)
 
 ### 贪心算法
 * [股票买卖](algrithm/Stocktrade.go)
