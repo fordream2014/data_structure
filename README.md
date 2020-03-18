@@ -24,6 +24,8 @@
 * [数组中第K个最大元素](algrithm/findKMaxElement.go)
 * [数组中的逆序对](algrithm/degreeOfInversion.go)
 * [数组中唯一只出现一次的数字](algrithm/findUniqElementInarray.go)
+* [数组中重复的数字]
+* [数组连续最大和]
 
 ### 贪心算法
 * [股票买卖](algrithm/Stocktrade.go)
@@ -51,6 +53,7 @@
 
 ### Trie树（前缀树）
 * [Trie树实现](algrithm/Trie.go)
+* [堆排序](algrithm/HeapSort.go)
 
 ### 二叉查找树
 * [二叉查找树的插入、删除、查找操作](algrithm/binarySearchTree.go)

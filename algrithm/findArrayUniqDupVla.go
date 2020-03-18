@@ -57,8 +57,6 @@ func findMoreDupVals(arr []int, limit int) []int {
 			return nil
 		}
 	}
-
-	return result
 }
 
 func TestFindUniqDupVal() {

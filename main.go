@@ -2,6 +2,8 @@ package main
 
 import "data_structure/algrithm"
 
+//import "data_structure/algrithm"
+
 func main() {
 	//algrithm.TestValidateHuiwen()
 	//algrithm.TestDeleteDup()
@@ -40,5 +42,5 @@ func main() {
 	//algrithm.TestBSTreeConvert()
 	//algrithm.TestSerializeBSTree()
 	//algrithm.TestGetDegreeOfInversion()
-	algrithm.TestFindUniqElementInarray()
+	algrithm.TestMaxSum()
 }
